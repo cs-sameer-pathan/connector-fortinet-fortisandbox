@@ -171,8 +171,8 @@
           "name": "un_zip_file",
           "title": "Unzip File",
           "type": "checkbox",
-          "tooltip": "Specify whether to unzip file and submit extracted files to Fortinet FortiSandbox.",
-          "description": "Specify whether to unzip file and submit extracted files to Fortinet FortiSandbox.",
+          "tooltip": "Select to unzip the file and submit extracted files to Fortinet FortiSandbox.",
+          "description": "Select to unzip the file and submit extracted files to Fortinet FortiSandbox.",
           "editable": true,
           "visible": true,
           "required": false,
@@ -182,8 +182,8 @@
               {
                 "title": "Password",
                 "name": "password",
-                "description": "Password to open the protected file",
-                "tooltip": "Provide the password for unzipping the file, in case the zipped file is password-protected.",
+                "description": "Specify the password to open the protected file.",
+                "tooltip": "Specify the password to open the protected file.",
                 "type": "password",
                 "visible": true,
                 "editable": true,
@@ -1251,8 +1251,8 @@
               {
                 "title": "Indicator Value",
                 "name": "indicator_value",
-                "tooltip": "Provide the value of indicator in list format or single value that you want to add to the allow or block list in Fortinet FortiSandbox.",
-                "description": "Value of the indicator (considering the Indicator type you have chosen from the Indicator Type drop-down list) that you want to add to the allow or block list in Fortinet FortiSandbox.",
+                "tooltip": "Specify a a comma-separated list of indicators, based on the Indicator Type that you have selected, to add to the allow or block list in Fortinet FortiSandbox.",
+                "description": "Specify a a comma-separated list of indicators, based on the Indicator Type that you have selected, to add to the allow or block list in Fortinet FortiSandbox.",
                 "type": "text",
                 "required": true,
                 "editable": true,
@@ -1262,8 +1262,8 @@
               {
                 "title": "Status",
                 "name": "status",
-                "description": "Select the status of the indicator that you want to add to the allow or block list in Fortinet FortiSandbox. By default it is set to Enabled. You can select from the following options: Enabled or Disabled.",
-                "tooltip": "Select the status of the indicator that you want to add to the allow or block list in Fortinet FortiSandbox. By default it is set to Enabled.",
+                "description": "Select the status of the indicator being added to the allow or block list in Fortinet. You can select from the following options: Enabled or Disabled.",
+                "tooltip": "Select the status of the indicator being added to the allow or block list in Fortinet.",
                 "type": "select",
                 "options": [
                   "Enabled",
@@ -1299,8 +1299,8 @@
               {
                 "title": "Indicator Value",
                 "name": "indicator_value",
-                "tooltip": "Provide the value of indicator in list format or single value that you want to replaced to the allow or block list in Fortinet FortiSandbox.",
-                "description": "Value of the indicator (considering the Indicator type you have chosen from the Indicator Type drop-down list) that you want to replaced to the allow or block list in Fortinet FortiSandbox.",
+                "tooltip": "Specify a a comma-separated list of indicators, based on the Indicator Type that you have selected, to replace the existing allow or block list indicators in Fortinet FortiSandbox.",
+                "description": "Specify a a comma-separated list of indicators, based on the Indicator Type that you have selected, to replace the existing allow or block list indicators in Fortinet FortiSandbox.",
                 "type": "text",
                 "required": true,
                 "editable": true,
@@ -1310,8 +1310,8 @@
               {
                 "title": "Status",
                 "name": "status",
-                "description": "Select the status of the indicator that you want to replace to the allow or block list in Fortinet FortiSandbox. By default it is set to Enabled. You can select from the following options: Enabled or Disabled.",
-                "tooltip": "Select the status of the indicator that you want to add to the replace or block list in Fortinet FortiSandbox. By default it is set to Enabled.",
+                "description": "Select the status of the indicator replacing the allow or block list indicators in Fortinet FortiSandbox. You can select from the following options: Enabled or Disabled.",
+                "tooltip": "Select the status of the indicator replacing the allow or block list indicators in Fortinet FortiSandbox.",
                 "type": "select",
                 "options": [
                   "Enabled",
@@ -1325,8 +1325,8 @@
               {
                 "title": "Expiry Date",
                 "name": "expiry_date",
-                "description": "Specify the expiry datetime for the indicator that you want to replace to the allow or block list in Fortinet FortiSandbox.",
-                "tooltip": "Specify the expiry datetime for the indicator that you want to replace to the allow or block list in Fortinet FortiSandbox.",
+                "description": "Specify the expiry datetime for the indicator replacing the allow or block list indicators in Fortinet FortiSandbox.",
+                "tooltip": "Specify the expiry datetime for the indicator replacing the allow or block list indicators in Fortinet FortiSandbox.",
                 "type": "datetime",
                 "required": false,
                 "editable": true,
@@ -1335,8 +1335,8 @@
               {
                 "title": "Comment",
                 "name": "comment",
-                "description": "Specify the comment for the indicator that you want to replace to the allow or block list in Fortinet FortiSandbox.",
-                "tooltip": "Specify the comment for the indicator that you want to replace to the allow or block list in Fortinet FortiSandbox.",
+                "description": "Specify the comment for the indicator replacing the allow or block list indicators in Fortinet FortiSandbox.",
+                "tooltip": "Specify the comment for the indicator replacing the allow or block list indicators in Fortinet FortiSandbox.",
                 "type": "text",
                 "required": false,
                 "editable": true,
