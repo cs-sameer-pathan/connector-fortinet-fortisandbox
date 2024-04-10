@@ -11,6 +11,8 @@
   - Toggle FPN State
   - Get PDF Report
   - Submit File
+ 
+  - 
 
 #### What's Fixed
 - Fixed a bug where the playbook `File > FortiSandbox > Enrichment` failed if indicator did not contain a file.
